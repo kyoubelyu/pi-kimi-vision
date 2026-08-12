@@ -1,0 +1,15 @@
+{
+  "name": "pi-kimi-vision",
+  "version": "0.1.0",
+  "description": "Pi extension: kimi_visual_check tool — cross-check screenshots/images with the kimi CLI as an independent vision channel",
+  "keywords": ["pi-package", "kimi", "vision", "screenshot"],
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions"]
+  }
+}
